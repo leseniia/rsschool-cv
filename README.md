@@ -1,2 +1,1 @@
-# rsschool-cv
-practise
+https://leseniia.github.io/rsschool-cv/cv
