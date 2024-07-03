@@ -12,10 +12,13 @@ Hi, I'm Eseniia. Tech-savvy and curiosity-driven designer. I specialize in seaml
 
 ### Work Experience
 ##### Digital Designer | Jellysmack | Paris(remote)
-* Developing compelling visual materials* Crafting personal branding materials* Producing Graphic design asstes
+* Developing compelling visual materials
+* Crafting personal branding materials
+* Producing Graphic design asstes
 
 ##### Communication Designer | Xiaomi | Moscow(on-site)
-* Created visual asstes, static and motion design for performance marketing purposes: DOOH, OOH, display ads, HTML5, print* Created key visuals and inforgraphics
+* Created visual asstes, static and motion design for performance marketing purposes: DOOH, OOH, display ads, HTML5, print
+* Created key visuals and inforgraphics
 
 ### Skills
 * Graphic Design (Figma)
