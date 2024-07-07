@@ -2,143 +2,166 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eseniia CV</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Inter:wght@600&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <title>CV</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-                    <h1>Eseniia Lee</h1>
-                </div>
+  <main class="cv">
+    <section class="about">
+      <header class="header">
+        <figure class="photo">
+          <img src="./assets/images/photo.jpg" alt="profile pic" />
+        </figure>
+      </header>
+      <article class="contacts">
+        <h3 class="contacts__text">contact me</h3>
+        <div class="underlined"></div>
+        <ul class="linkedin">
 
-                <div id="contacts" class="contacts info-section">
-                    <ul>
-                        <li><p><a href="https://linkedin.com/in/esenialee">
-                            LinkedIn
-                        </a></p></li>
-                        <li><p><a href="https://t.me/leseniia">
-                            Telegram
-                        </a></p></li>
-                    </ul>
-                </div>
-
-                <section id="skills" class="skills info-section">
-                    <h2>Skills</h2>
-                    <ul>
-                        <li>HTML, CSS</li> 
-                        <li>JavaScript</li>
-                        <li>UX Research (JTBD, CJM)</li>
-                    </ul>
-                </section>
-
-                <section id="languages" class="languages info-section">
-                    <h2>Languages</h2>
-                    <ul>                       
-                        <li>English - C1/Professional Working Proficiency)</li>
-                        <li>Spanish - A2</li>
-                        <li>Russian - Native</li>
-                    </ul>
-                </section>
-            </div>
-
-            <div class="right-pane">
-                <section id="profile" class="profile info-section">
-                    <h2>Profile</h2>
-                    <p>Tech-savvy and curiosity-driven designer. I specialize in seamlessly integrating creativity with technology. Worked on diverse projects across various platforms (web and mobile) for B2B, B2C clients
-                    </p>
-                </section>
-
-                <section id="education" class="education info-section">
-                    <h2>Education</h2>
-                    <h3>Bachelor Degree</h3>
-                    <h4>National Research University Higher School of Economics</h4>
-                    <p>Communication design</p>
-
-                    <h4>HTML and CSS course</h4>
-                    <h4>JavaScript course</h4>
-                    <h4><p><a href="https://stepik.org/cert/2224773?lang=en">
-                        Python course for beginners
-                    </a></p></h4>
-            
-                    
-
-                </section>
-
-                <section id="code" class="code-section info-section">
-                    <h2>Code example</h2>
-                    <pre>
-                        <code>
-                            function setup() {
-                                createCanvas(windowWidth, windowHeight);
-                                background(COLOR)
-                                //console.log("SETUP вызван")
-                                colors.push("yellow")
-                                colors.push("red")
-                              
-                                noStroke()
-                              }
-                              
-                              function decideFill(x,y) {
-                                if (posX[i] > windowWidth/2)  {
-                                  fill(colors[0])
-                                }
-                                if (posX[i] > windowWidth/2) {
-                                  fill(colors[1])
-                                }
-                              }
-                              
-                              function draw() {
-                                background(COLOR);
-                              
-                                posX.push(mouseX)
-                                posY.push(mouseY)
-                              
-                                if (posX.length > TAIL) {
-                                  posX.splice(0,1)
-                                  posY.splice(0,1)
-                                }
-                            }
-                            </code>
-                    </pre>
-
-                </section>
-
-                <section id="projects" class="projects info-section">
-                    <h2>Projects</h2>
-                    <p><a href="https://github.com/leseniia">
-                        More projects on GitHub
-                    </a></p>
-
-                </section>
-
-            </div>
-
-        </main>
-
-    </div>
-
-    <footer class="cv-footer">
-        <div class="footer-item footer-github">
-            <a href="https://github.com/leseniia">
-                <img class="footer-image"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png"
-                    alt="github logo">
+            <a id="link" href="https://linkedin.com/in/esenialee">
+              LinkedIn
             </a>
-        </div>
-
-        <div class="footer-item footer-rs-logo">
-            <a href="https://rs.school/courses/javascript-ru">
-                <img class="footer-image"
-                    src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/61cea2636c5a5f660b1070fa262bbd4acc92ec66/tasks/cv/rs-school-logo.svg"
-                    alt="rs school logo">
+          </li>
+        </ul>
+        <ul class="telegram">
+            <a id="link" href="https://t.me/leseniia">
+              Telegram
             </a>
+          </li>
+        </ul>
+      </article>
+      <article class="skills">
+        <h3 class="contacts__text">skills</h3>
+        <div class="underlined"></div>
+        <ul class="skills_list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Figma</li>
+          <li>UX Research (JTBD, CJM)</li>
+        </ul>
+        <div id="languages">
+          <h3 class="contacts__text">languages</h3>
+          <div class="underlined"></div>
+            <ul class="skills_list">
+              <li>English - C1/Professional Working Proficiency)</li>
+              <li>Spanish - A2</li>
+              <li>Russian - Native</li>
+            </ul>
+        </div>
+      </article>
+     
+    </section>
+    <section class="about-me">
+      <h1>Eseniia Lee</h1>
+      <h3>Digital Designer</h3>
+      <div class="underlined-grey"></div>
+      <article class="education">
+        <h2>Education</h2>
+        <div class="description">
+          <div class="description__item1">
+            <div>
+              <b>Rolling Scopes School</b>
+            </div>
+          </div>
+          <div class="description__item2">
+            <b>Course:</b> Frontend Development
+          </div>
+        </div>
+        <div class="description">
+          <div class="description__item1">
+            <div>
+              <b>Python</b>
+            </div>
+          </div>
+          <div class="description__item2">
+            <b>Course</b>:
+            Python for beginners
+          </div>
         </div>
 
-        <div class="footer-item footer-year">
-            <h4>2024</h4>
+      </article>
+      <article class="experience">
+        <h2>Experience</h2>
+        <div class="description">
+          <div class="description__item1">
+            <div>
+              <b>Jellysmack</b>
+            </div>
+          </div>
+          <div class="description__item2">
+            <b>Role:</b> Digital Designer<br />
+            <b>Tools & Technologies:</b> Figma, UX research<br />
+          </div>
         </div>
-    </footer>
+        <div class="description">
+          <div class="description__item1">
+            <div>
+              <b>ABC</b>
+            </div>
+          </div>
+          <div class="description__item2">
+            <b>Role:</b> Junior Front-end Developer<br />
+            <b>Tools & Technologies:</b> JavaScript, <br />
+          </div>
+        </div>
+      </article>
+      <article class="experience">
+        <h2>Code</h2>
+        <div class="description">
+          <div class="description__item1">
+            <code>
+              function setup() {
+                createCanvas(windowWidth, windowHeight);
+                background(COLOR)
+                //console.log("SETUP вызван")
+                colors.push("yellow")
+                colors.push("red")
+              
+                noStroke()
+              }
+              
+              function decideFill(x,y) {
+                if (posX[i] > windowWidth/2)  {
+                  fill(colors[0])
+                }
+                if (posX[i] > windowWidth/2) {
+                  fill(colors[1])
+                }
+              }
+              
+              function draw() {
+                background(COLOR);
+              
+                posX.push(mouseX)
+                posY.push(mouseY)
+              
+                if (posX.length > TAIL) {
+                  posX.splice(0,1)
+                  posY.splice(0,1)
+                }
+            } 
+            </code>
+        </div>
+      </div>
+      </article>
+      <footer class="footer">
+              <a href="https://github.com/leseniia"> <div class="fab fa-github"></div></a>
+              <a href="https://rs.school/js"><div class="school"></div></a> 
+              <div> 2024 </div>
+      </footer>
+    </section>
+  </main>
 </body>
 
 </html>
